@@ -1,0 +1,6 @@
+{
+  "studioMajor": 4,
+  "testedVersions": ["4.0.535", "4.0.539"],
+  "status": "experimental",
+  "note": "Listed versions are integration-test targets, not a promise of complete translation."
+}

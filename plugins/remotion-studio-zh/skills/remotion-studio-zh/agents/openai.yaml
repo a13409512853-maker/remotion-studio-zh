@@ -1,0 +1,5 @@
+interface:
+  display_name: "Remotion 中文扩展"
+  short_description: "自动通过独立语言包用中文启动现有或新建项目的 Remotion Studio"
+policy:
+  allow_implicit_invocation: true

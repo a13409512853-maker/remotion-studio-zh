@@ -1,0 +1,29 @@
+{
+  "name": "remotion-studio-zh-extension",
+  "version": "0.3.0-alpha.0",
+  "description": "Remotion Studio 中文汉化语言包。与 Codex 配合，安装一次自动中文预览，不改原项目，支持 Webpack/Rspack。",
+  "license": "Unlicense",
+  "keywords": [
+    "remotion", "remotion-studio", "remotion-zh", "chinese", "zh-cn",
+    "i18n", "localization", "language-pack", "codex", "codex-plugin",
+    "ai-agent", "webpack", "rspack", "video", "汉化", "中文"
+  ],
+  "private": true,
+  "type": "commonjs",
+  "main": "./src/index.cjs",
+  "engines": {"node": ">=22.12"},
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "doctor": "node scripts/launch.cjs doctor",
+    "check": "node scripts/check-package.cjs",
+    "routing:status": "node scripts/repair-routing.cjs status",
+    "routing:repair": "node scripts/repair-routing.cjs repair",
+    "install:codex": "node scripts/install-local.cjs"
+  },
+  "dependencies": {
+    "@jridgewell/remapping": "2.3.5",
+    "acorn": "8.15.0",
+    "acorn-walk": "8.3.4",
+    "magic-string": "0.30.21"
+  }
+}
