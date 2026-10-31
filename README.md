@@ -1,5 +1,3 @@
-<img width="1009" height="1220" alt="image" src="https://github.com/user-attachments/assets/e560ea1f-22a9-4aad-a500-6cf37dc2d267" /># Remotion Studio 中文扩展
-
 **Remotion 汉化语言包 / Chinese language pack for Remotion Studio**
 
 与 Codex 中的官方 Remotion 插件配合，安装一次，后续由 AI 自动使用中文入口打开项目。无需逐个项目手动配置，也不改写官方 Studio 安装文件。
@@ -8,9 +6,13 @@
 
 ## 给 AI 的一句话安装
 
-> 安装(https://github.com/a13409512853-maker/remotion-studio-zh)：先读取 INSTALL.md，优先接入 Remotion 技能，仅在权限受限时回退全局指令，保留现有项目配置，完成后检查安装状态；有可用项目时验证中文界面。
+复制下面这句话发给 Codex：
 
-用户只需提供仓库链接与这句话，AI 根据安装说明完成依赖安装、插件登记和路由接入。必要的文件访问权限仍由用户确认；这不是在任意 AI 聊天窗口都能执行的远程安装服务。
+```text
+请安装 https://github.com/a13409512853-maker/remotion-studio-zh ，按 INSTALL.md 优先接入 Remotion 技能，权限受限时再使用全局指令，并验证安装结果。
+```
+
+需要支持本地操作的 Codex；必要权限由你确认。
 
 ## 项目特点
 
