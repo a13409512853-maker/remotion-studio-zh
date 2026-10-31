@@ -1,0 +1,7 @@
+node_modules/
+state/
+backups/
+artifacts/
+plugins/remotion-studio-zh/runtime.json
+installation.json
+*.tgz
