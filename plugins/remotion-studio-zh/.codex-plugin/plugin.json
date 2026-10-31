@@ -1,0 +1,18 @@
+{
+  "name": "remotion-studio-zh",
+  "version": "0.3.0-alpha.0",
+  "license": "Unlicense",
+  "description": "通过独立语言包启动中文 Remotion Studio，自动复用项目配置。",
+  "skills": "./skills/",
+  "keywords": ["remotion", "chinese", "studio", "language", "中文", "汉化"],
+  "interface": {
+    "displayName": "Remotion 中文扩展",
+    "shortDescription": "自动用中文打开 Remotion Studio",
+    "longDescription": "优先接入 Remotion 技能，只有调用 Studio 预览时才加载中文扩展；局部写入被拒绝时才使用全局指令备选。独立启动器复用原项目配置，包含插件更新后的接入检测与修复工具。当前为部分翻译的 alpha 版。",
+    "developerName": "Local Remotion Tools",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#0B84F3",
+    "defaultPrompt": ["用中文打开当前项目的 Remotion Studio。", "检查当前 Remotion 中文扩展及项目兼容性。"]
+  }
+}
