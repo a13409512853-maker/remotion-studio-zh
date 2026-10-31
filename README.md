@@ -9,7 +9,8 @@
 复制下面这句话发给 Codex：
 
 ```text
-请安装 https://github.com/a13409512853-maker/remotion-studio-zh ，按 INSTALL.md 优先接入 Remotion 技能，权限受限时再使用全局指令，并验证安装结果。
+请安装 https://github.com/a13409512853-maker/remotion-studio-zh 
+按 INSTALL.md 优先接入 Remotion 技能，权限受限时再使用全局指令，并验证安装结果。
 ```
 
 需要支持本地操作的 Codex；必要权限由你确认。
